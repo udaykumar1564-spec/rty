@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><HTML></title>
+    <style>
+    .button{
+        background-color: orange;
+        color: aqua;
+    }
+    .button:hover{
+        background-color: green;
+        height: 35px;
+        border:none;
+        border-radius:20px;
+    }
+    #input-name:focus{
+       border: 2px solid blue;
+       outline: none;
+    }
+    p.first-child{
+        color:chartreuse;
+    }
+    .paragraph::first-line{
+        color: yellow;
+        font-weight: lighter;
+    }
+    p::after{
+        content: 🥰;
+    }
+    .paragraph{
+        color: black;
+    }
+    .paragraph{
+        color: aqua;
+    }
+    p::before{
+        color: chocolate;
+    }
+    .paragraph{
+        position: relative;
+        top:50px;
+        bottom: 55px;
+    }
+    </style>
+    </head>
+     <body>
+    <button class="button">
+    this is a button
+     </button>
+    <input type="text" name="" id="input-name">
+    <div>
+        <p>p1</p>
+        <p>p2</p>
+        <p>p3</p>
+        <p>p4</p>
+       </div>
+       <p class="paragraph">
+        motivated and detail-oriented engineering graduate
+        <br>
+        with a strong foundation in cse(AI&ML)
+       </p>
+</body>
+</html>
